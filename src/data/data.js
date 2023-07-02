@@ -18,7 +18,7 @@ export const data=[
         name:"Amazon Clone Application",
         image:AmazonClone,
         github:"https://github.com/Nayana62/amazon_clone",
-        live:"https://amazon-clone-e1lxkmt5b-nayana62.vercel.app/",
+        live:"https://amazon-clone-nayana62.vercel.app/",
     },
     {
         id:3,
