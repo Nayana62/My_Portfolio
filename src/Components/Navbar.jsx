@@ -102,7 +102,7 @@ function Navbar() {
                 </a>
             </li>
             <li className="w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-14px] duration-300 lg:mb-[-14px]">
-                <a className="flex justify-between items-center w-full text-[#eff3f3] bg-[#565f69] p-2 " href="https://drive.google.com/file/d/1DEpBpsiAs3Zkz3GGZr0CmzMiPuxEK3Jy/view?usp=sharing" rel="noreferrer" target="_blank" >
+                <a className="flex justify-between items-center w-full text-[#eff3f3] bg-[#565f69] p-2 " href="https://drive.google.com/file/d/1VrSw_z-VSGqOZKFRyfyiLE2r_7iGYshl/view?usp=sharing" rel="noreferrer" target="_blank" >
                     Resume <BsFillPersonLinesFill className="mr-[-10px] lg:mr-0 duration-300 px-1" size={30}/>
                 </a>
             </li>
