@@ -5,14 +5,23 @@ import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import Tailwind from "../assets/tailwind.png";
 import FireBase from "../assets/firebase.png";
-import Redux from "../assets/redux.png"
-import Github from "../assets/github.png"
+import Redux from "../assets/redux.png";
+import Github from "../assets/github.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Skills() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div name="skills" className="bg-[#142b33] text-[#eff3f3] ">
       {/* container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div
+        data-aos="fade-up"
+        className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full"
+      >
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-rose-600 ">
             Skills

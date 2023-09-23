@@ -1,12 +1,22 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Home() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <div name="home" className="bg-[#142b33] w-full h-screen ">
       {/* container */}
-      <div className="max-w-[1000px] h-full mx-auto px-8 flex flex-col justify-center">
+      <div
+        data-aos="fade-up"
+        className="max-w-[1000px] h-full mx-auto px-8 flex flex-col justify-center"
+      >
         <p className=" text-rose-500">HI THERE I'M</p>
         <h1 className=" text-4xl sm:text-6xl font-bold text-[#eff3f3]">
           Nayana N M
