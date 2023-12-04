@@ -135,7 +135,7 @@ function Navbar() {
           <li className="w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-14px] duration-300 lg:mb-[-14px]">
             <a
               className="flex justify-between items-center w-full text-[#eff3f3] bg-[#565f69] p-2 "
-              href="https://drive.google.com/file/d/1Oh6hNbrTqAqDcUWfCRlTlW40EQ9-YIv6/view?usp=sharing"
+              href="https://drive.google.com/file/d/11uuE1YnUR571yqN-PLVIUu_XUoZfheVi/view?usp=sharing"
               rel="noreferrer"
               target="_blank"
             >
